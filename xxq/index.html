@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* 头部样式 */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* 导航链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* 链接 - 修改颜色 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* 创建三个不相等的列 */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* 左右两侧宽度 */
+.column.side {
+  width: 25%;
+}
+
+/* 中间区域宽度 */
+.column.middle {
+  width: 50%;
+}
+
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-md-4.column{
+		border-bottom: rgba(222,222,222,1.00)
+	}
+
+/* 响应式布局 - 宽度小于600px时设置上下布局 */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+	
+<div class="topnav">
+  <a href="index.html">自主学习</a>
+  <a href="test.html">内容巩固</a>
+  <a href="map.html">学习记录</a>
+</div>
+	
+<div class="header">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+ 
+  <!-- 指示符 -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+ 
+  <!-- 轮播图片 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../xxq_img/index_01.jpg" width="1000" height="350">
+    </div>
+    <div class="carousel-item">
+      <img src="../xxq_img/index_02.jpg" width="1000" height="350">
+    </div>
+    <div class="carousel-item">
+      <img src="../xxq_img/index_03.jpg" width="1000" height="350">
+    </div>
+  </div>
+ 
+  <!-- 左右切换按钮 -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+	<div class="container">
+	<div class="row clearfix"></div>
+</div>
+
+
+<div class="row">
+
+<div class="container" >
+<div class="container" >
+<div class="container"></div>
+	
+	<div class="row clearfix">
+		
+		<div class="col-md-4 column">
+					<img alt="140x140" src="../xxq_img/jing_01.jpg" class="img-circle" width="256px" height="135px" />
+					<blockquote>
+						<span><h3>天台山</h3></span>
+						<h4>佛宗道源，文物之邦</h4>
+					  <small><cite>天台山（tiān tāi shān）位于中国浙江省天台县城北，西南连仙霞岭，东北遥接舟山群岛。为曹娥江与甬江的分水岭。主峰华顶山在天台县东北，海拔1098米，由花岗岩构成。多悬岩、峭壁、瀑布。</cite></small>
+					</blockquote>
+									<button><a href="tts_0.html">了解更多</a></button>
+
+				</div>
+			
+				<div class="col-md-4 column" >
+					<img alt="140x140" src="../xxq_img/jing_05.jpg" class="img-circle" width="256px" height="135px" />
+					<blockquote>
+						<span><h3>杭州</h3></span>
+						<h4>官河要道，凭栏怀古</h4>
+					  <small><cite>钱塘江南岸的西兴古镇，历史上曾是两浙门户，交通发达，地势险要，自古为“浙东首地，宁、绍、台之襟喉”。西兴的历史可上溯至春秋时期。越国大夫范蠡在此筑城拒吴，时称固陵。六朝时称西陵。吴越王钱镠以“陵”非吉语，改西陵为西兴至今。明清时，西兴属绍兴府萧山县管辖，民国仍之。解放后，萧山县划归杭州市，西兴属杭州。</cite></small>
+					</blockquote>
+					<button><a href="tts_0.html">了解更多</a></button>
+				</div>
+		<div class="col-md-4 column">
+					<img alt="140x140" src="../xxq_img/jing_04.jpg" class="img-circle" width="256px" height="135px" />
+					<blockquote>
+						<span><h3>绍兴</h3></span>
+						<h4>稽山鉴水，诗路柯桥</h4>
+					  <small><cite>绍兴已有2500多年建城史，是首批国家历史文化名城、联合国人居奖城市，中国优秀旅游城市，国家森林城市，中国民营经济最具活力城市，也是著名的水乡、桥乡、酒乡、书法之乡、名士之乡。绍兴素称“文物之邦、鱼米之乡”。著名的文化古迹有兰亭、禹陵、鲁迅故里、沈园、柯岩、蔡元培故居、周恩来祖居、秋瑾故居、马寅初故居、王羲之故居、贺知章故居等。</cite></small>
+					</blockquote>
+								<button><a href="tts_0.html">了解更多</a></button>
+
+				</div>
+			<div class="col-md-4 column">
+					<img alt="140x140" src="../xxq_img/jing_02.jpg" class="img-circle" width="256px" height="135px" />
+					<blockquote>
+						<span><h3>曹娥江</h3></span>
+						<h4>官河要道，凭栏怀古</h4>
+					  <small><cite>曹娥江，中国东海独流入海河流钱塘江的最大支流，因东汉少女曹娥入江救父而得名。嵊州附近又称剡溪，上虞境又称上虞江，百官附近古称舜江，下游段古称东小江。</cite></small>
+					</blockquote>
+									<button><a href="tts_0.html">了解更多</a></button>
+
+				</div>
+		<div class="col-md-4 column">
+					<img alt="140x140" src="../xxq_img/jing_03.jpg" class="img-circle" width="256px" height="135px" />
+					<blockquote>
+						<span><h3>嵊州</h3></span>
+						<h4>越韵诗路，风雅剡溪</h4>
+					  <small><cite>嵊州，秦汉时已建县称“剡”，至今已有2100多年，北宋始名嵊县，1995年撤县设嵊州市。是任光、马寅初、袁雪芬、马晓春等现代文化名人的故乡。 还是越剧的发源地。</cite></small>
+					</blockquote>
+                           <button><a href="tts_0.html">了解更多</a></button>
+				</div>
+	
+		
+			<div class="col-md-4 column">
+					<img alt="140x140" src="../xxq_img/jing_04.jpg" class="img-circle" width="256px" height="135px" />
+					<blockquote>
+						<span><h3>上虞</h3></span>
+						<h4>官河要道，凭栏怀古</h4>
+					  <small><cite>上虞区，浙江省绍兴市市辖区。位于浙江省东部、绍兴市东北部，钱塘江南岸。东邻宁波市余姚市，南交嵊州市，西靠柯桥区、越城区，北濒钱塘江，与海宁市、海盐县相望。全区陆域面积1401.68平方千米，地形南高北低，南部低山丘陵与北部水网平原面积参半，呈现出“五山一水四分田”格局</cite></small>
+					</blockquote>
+									<button><a href="tts_0.html">了解更多</a></button>
+
+				</div>
+			
+</body>
+</html>
